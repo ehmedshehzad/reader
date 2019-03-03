@@ -1,0 +1,51 @@
+@import url( 'https://fonts.googleapis.com/css?family=Open+Sans|Merriweather' );
+/* Imported the Primary and Secondary Fonts - Open Sans and Merriweather */
+
+.font-primary {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.font-secondary {
+    font-family: 'Merriweather', serif;
+}
+/* Set up the Primary and Secondary Font Family classes */
+
+.font-uppercase {
+    text-transform: uppercase;
+}
+
+.font-lowercase {
+    text-transform: lowercase;
+}
+
+.font-capitalize {
+    text-transform: capitalize;
+}
+
+.font-initial {
+    text-transform: initial;
+}
+
+.font-inherit {
+    text-transform: inherit;
+}
+/* Set up the Text Transform classes for different Fonts */
+
+*, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Cleared the Basic styles on all elements */
+
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+/* Set up the Basic Styles of the Wrapper and the Anchor Links */
